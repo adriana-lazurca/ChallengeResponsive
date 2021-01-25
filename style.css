@@ -314,6 +314,10 @@ footer h1 {
     padding-top: 20%;
   }
 
+  #mes_amis ul {
+    padding-left: 15px;
+  }
+
   .bouton_rouge {
     bottom: 20px;
     left: 2px;
