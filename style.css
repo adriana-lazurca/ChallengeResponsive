@@ -264,15 +264,67 @@ footer h1 {
 /* small */
 @media only screen and (max-width: 300px) {
   body {
-    color: yellow;
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  header {
+    display: block;
+  }
+
+  nav {
+    font-size: 9px;
+    padding-right: 2px;
+  }
+
+  nav ul {
+    padding-left: 0;
+    display: block;
+  }
+
+  nav li {
+    padding-bottom: 12px;
+  }
+
+  section {
+    display: inline-grid;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: block;
+  }
+
+  #mes_photos {
+    padding-top: 8%;
+  }
+
+  #mes_amis {
+    padding-top: 10%;
+  }
+
+  #mes_amis ul {
+    margin: 10px;
+  }
+
+  .bouton_rouge {
+    bottom: 20px;
+    left: 2px;
+    right: auto;
+  }
+
+  footer p {
+    display: flex;
+    width: max-content;
+  }
+
+  footer img {
+    width: 20%;
   }
 }
 
 /* medium */
 @media only screen and (min-width: 301px) and (max-width: 768px) {
   body {
-    color: red;
     font-size: 15px;
   }
 
@@ -322,13 +374,5 @@ footer h1 {
     bottom: 20px;
     left: 2px;
     right: auto;
-  }
-}
-
-/* large */
-@media only screen and (min-width: 769px) {
-  body {
-    color: blue;
-    font-size: 20px;
   }
 }
