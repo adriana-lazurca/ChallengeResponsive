@@ -115,6 +115,7 @@ nav a:hover {
   position: relative;
   box-shadow: 0px 4px 4px #1c1a19;
   margin-bottom: 25px;
+  background-size: cover;
 }
 
 #banniere_description {
@@ -263,6 +264,8 @@ footer h1 {
 /* small */
 @media only screen and (max-width: 300px) {
   body {
+    color: yellow;
+    font-size: 10px;
   }
 }
 
@@ -273,15 +276,54 @@ footer h1 {
     font-size: 15px;
   }
 
+  header {
+    display: block;
+  }
+
   nav {
-      font-size: 9px;
-      max-width: 67%;
-      
+    font-size: 9px;
+    padding-right: 2px;
+  }
+
+  nav ul {
+    padding-left: 0;
+  }
+
+  section {
+    display: inline-grid;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: block;
+  }
+
+  #tweet {
+    width: 33.33%;
+    float: left;
+  }
+
+  #mes_photos {
+    width: 66.66%;
+    float: left;
+    padding-left: 16%;
+  }
+
+  #mes_amis {
+    width: 50%;
+    padding-top: 20%;
+  }
+
+  .bouton_rouge {
+    bottom: 20px;
+    left: 2px;
   }
 }
 
 /* large */
 @media only screen and (min-width: 769px) {
   body {
+    color: blue;
+    font-size: 20px;
   }
 }
