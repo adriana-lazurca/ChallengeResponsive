@@ -317,6 +317,7 @@ footer h1 {
   .bouton_rouge {
     bottom: 20px;
     left: 2px;
+    right: auto;
   }
 }
 
