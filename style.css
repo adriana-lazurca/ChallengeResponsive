@@ -270,10 +270,12 @@ footer h1 {
 @media only screen and (min-width: 301px) and (max-width: 768px) {
   body {
     color: red;
-    font-size: small;
+    font-size: 15px;
   }
 
   nav {
+      font-size: 9px;
+      max-width: 67%;
       
   }
 }
